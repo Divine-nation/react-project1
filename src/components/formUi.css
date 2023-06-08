@@ -1,0 +1,137 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main-container{
+    background-color: #cae1de;
+}
+
+.container{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    margin: 15px;
+    width: 20%;
+}
+
+.image{
+    position: fixed;
+    z-index: 200;
+    top: 35%;
+    width: 35%;
+    margin-left: -55px;
+}
+
+h2{
+    color: white;
+    margin: 30px 40px 0 0;
+    text-align: center;
+    font-size: 28px;
+}
+
+.h2{
+    color: black;
+    text-align: left;
+    margin-left: -5rem;
+    margin-top: -2rem;
+}
+
+.left-con{
+    position: relative;
+    background-color: #51C8BC;
+    height: 30rem;
+    width: 20rem;
+    border-radius: 10px;
+    margin-right: 25rem;
+}
+
+.right-con{
+    height: 30rem;
+    width: 28rem;
+    background-color: white;
+    border-radius: 10px;
+    position: absolute;
+    margin-left: 35rem;
+    margin-right: 15rem;
+}
+
+form{
+    margin-top: 3rem;
+    margin-left: 8rem;
+}
+
+h4{
+    margin-top: 1rem;
+    margin-left: 22rem;
+    color: #b2c6c3;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.input{
+    display: block;
+    border: 1px solid #b0d1cd;
+    margin-top: 30px;
+    padding: 6px 20px;
+    border-radius: 5px;
+}
+
+button{
+    margin-top: 10px;
+    border: none;
+    background-color: #17B19F;
+    color: white;
+    padding: 12px 80px;
+    cursor: pointer;
+}
+
+.check{
+    display: flex;
+    margin: 20px 0;
+}
+
+.check p{
+    font-size: 10px;
+    margin-left: 5px;
+    color: #b0d1cd;
+    font-weight: 200;
+}
+
+h5{
+    color: #b5cac8;
+    font-weight: 200;
+    font-size: 12px;
+}
+
+.or{
+    text-align: center;
+    margin-right: 5rem;
+    margin-top: 10px;
+}
+.socials{
+    display: flex;
+    margin: 8px 0;
+}
+
+.socials h5{
+    padding: 0  5px;
+    color: #b2c6c3;
+}
+
+.footer{
+    font-size: 12px;
+    color: #b2c6c3;
+    text-align: center;
+    margin-right: 4rem;
+    margin-top: 1rem;
+}
+
+.footer span{
+    font-weight: 500;
+    color: #51C8BC;
+}
