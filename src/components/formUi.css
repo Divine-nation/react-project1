@@ -5,6 +5,29 @@
 }
 .main-container{
     background-color: #cae1de;
+    min-height: 100vh;
+    padding-top: 1px;
+}
+
+pre{
+    text-align: center;
+    padding-top: 1rem;
+    color: #087568;
+}
+
+.message-success {
+    height: 2rem;
+    width: 12rem;
+    background-color: #ffff; 
+    text-align: center;
+    color: rgb(0, 94, 41);
+    margin-left: 35rem;
+}
+
+.error{
+    color: red;
+    font-size: 10px;
+    letter-spacing: 1px;
 }
 
 .container{
@@ -12,6 +35,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: -4rem;
 }
 
 .logo{
@@ -22,8 +46,8 @@
 .image{
     position: fixed;
     z-index: 200;
-    top: 35%;
-    width: 35%;
+    top: 38%;
+    width: 36%;
     margin-left: -55px;
 }
 
@@ -79,6 +103,11 @@ h4{
     margin-top: 30px;
     padding: 6px 20px;
     border-radius: 5px;
+}
+
+.h5{
+    margin-left: 5rem;
+    color: red;
 }
 
 button{
