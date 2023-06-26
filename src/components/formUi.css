@@ -200,12 +200,11 @@ h5{
     }
     
     .image{
-        /* z-index: 200; */
+        z-index: 200;
         top: 25%;
         left: 40%;
         width: 100%;
         position: sticky;
-        /* margin-left: -55px; */
     }
     
     h2{
