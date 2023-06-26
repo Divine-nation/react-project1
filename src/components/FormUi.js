@@ -108,7 +108,7 @@ const validate = (values) => {
               <h5><FontAwesomeIcon icon={faGoogle} />Sigup with Google</h5>
               <h5>Sigup with Faceook <FontAwesomeIcon icon={faFacebook} /> </h5>
               </div>
-              <p className='footer'>Already a account? <span>Log in</span></p>
+              <p className='footer'>Already have account? <span>Log in</span></p>
             </form>
           </div>
           </div>
